@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--Bootstrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+
+    <title>tugas_pbo_crud</title>
+</head>
+<body>
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                CRUD - BS5
+            </a>
+        </div>
+    </nav>
+
+    <!--Judul-->
+    <div class="container-fluid">
+        <h1 class="mt-4">Data Mahasiswa</h1>
+        <figure>
+            <blockquote class="blockquote">
+                <p>Berisikan data yang telah disimpan di database.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                CRUD <cite title="Source Title">Create Read Update Delete</cite>
+            </figcaption>
+        </figure>
+        <a href="kelola.html" type="button" class="btn btn-primary mb-4">
+            <i class="fa fa-plus"></i>
+            Tambah Data
+        </a>
+        <div class="table-responsive">
+            <table class="table align-middle table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th><center>No.</center></th>
+                        <th>NIM</th>
+                        <th>Nama Mahasiswa</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Alamat</th>
+                        <th>Program Studi</th>
+                        <th>Foto Mahasiswa</th>
+                        <th>Email Mahasiswa</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><center>1.</center></td>
+                        <td>23051224059</td>
+                        <td>Adrian Sanjaya</td>
+                        <td>Laki-laki</td>
+                        <td>Jl. Ahmad Yani Blok AB Nomor 19</td>
+                        <td>S1 Sistem Informasi</td>
+                        <td>
+                            <img src="img/img1.jpg" style="width: 100px;">
+                        </td>
+                        <td>adrian.23059@mhs.unesa.ac.id</td>
+                        <td>
+                            <a href="kelola.html" type="button" class="btn btn-success btn-sm">
+                                <i class="fa fa-pencil"></i>
+                                Ubah
+                            </a>
+                            <button type="button" class="btn btn-danger btn-sm">
+                                <i class="fa fa-trash"></i>
+                                Hapus
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><center>2.</center></td>
+                        <td>23051224061</td>
+                        <td>Agra Adi Purnama</td>
+                        <td>Laki-laki</td>
+                        <td>Jl. Basuki Rahmat Blok Al Nomor 23</td>
+                        <td>S1 Teknik Informatika</td>
+                        <td>
+                            <img src="img/img2.jpg" style="width: 100px;">
+                        </td>
+                        <td>agra.23061@mhs.unesa.ac.id</td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-sm">
+                                <i class="fa fa-pencil"></i>
+                                Ubah
+                            </button>
+                            <button type="button" class="btn btn-danger btn-sm">
+                                <i class="fa fa-trash"></i>
+                                Hapus
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><center>3.</center></td>
+                        <td>23051224065</td>
+                        <td>Aneska Aira Rahmawati</td>
+                        <td>Perempuan</td>
+                        <td>Jl. Hayam Wuruk Blok EA Nomor 16</td>
+                        <td>S1 Pendidikan Teknologi Informasi</td>
+                        <td>
+                            <img src="img/img3.jpg" style="width: 100px;">
+                        </td>
+                        <td>Aneska.23065@mhs.unesa.ac.id</td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-sm">
+                                <i class="fa fa-pencil"></i>
+                                Ubah
+                            </button>
+                            <button type="button" class="btn btn-danger btn-sm">
+                                <i class="fa fa-trash"></i>
+                                Hapus
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><center>4.</center></td>
+                        <td>23051224068</td>
+                        <td>Ayudia Kurmalasari</td>
+                        <td>Perempuan</td>
+                        <td>Jl. Pulo Wonokromo Blok DK Nomor 51</td>
+                        <td>S1 Sistem Informasi</td>
+                        <td>
+                            <img src="img/img4.jpg" style="width: 100px;">
+                        </td>
+                        <td>Ayudia.23068@mhs.unesa.ac.id</td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-sm">
+                                <i class="fa fa-pencil"></i>
+                                Ubah
+                            </button>
+                            <button type="button" class="btn btn-danger btn-sm">
+                                <i class="fa fa-trash"></i>
+                                Hapus
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><center>5.</center></td>
+                        <td>23051224072</td>
+                        <td>Elard Edwin Putra</td>
+                        <td>Laki-laki</td>
+                        <td>Jl. Adityawarman Blok AU Nomor 49</td>
+                        <td>S1 Teknik Informatika</td>
+                        <td>
+                            <img src="img/img5.jpg" style="width: 100px;">
+                        </td>
+                        <td>Elard.23072@mhs.unesa.ac.id</td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-sm">
+                                <i class="fa fa-pencil"></i>
+                                Ubah
+                            </button>
+                            <button type="button" class="btn btn-danger btn-sm">
+                                <i class="fa fa-trash"></i>
+                                Hapus
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><center>6.</center></td>
+                        <td>23051224076</td>
+                        <td>Ivander Yanuar Zaim</td>
+                        <td>Laki-laki</td>
+                        <td>Jl. Margorejo Indah Blok EL Nomor 32</td>
+                        <td>S1 Pendidikan Teknologi Informasi</td>
+                        <td>
+                            <img src="img/img6.jpg" style="width: 100px;">
+                        </td>
+                        <td>Ivander.23076@mhs.unesa.ac.id</td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-sm">
+                                <i class="fa fa-pencil"></i>
+                                Ubah
+                            </button>
+                            <button type="button" class="btn btn-danger btn-sm">
+                                <i class="fa fa-trash"></i>
+                                Hapus
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
